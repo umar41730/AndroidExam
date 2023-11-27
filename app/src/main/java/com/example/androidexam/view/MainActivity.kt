@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
     private  var catId: String=""
     private var itemListRv: List<ItemsModel> = emptyList()
     private var originalTopMargin = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
